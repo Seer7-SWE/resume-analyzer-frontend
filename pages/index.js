@@ -14,12 +14,13 @@ function App() {
 
   const fetchMatches = async () => {
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/matches` {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/matches`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
         },
       });
+      
   
       if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
   
