@@ -6,7 +6,7 @@ import Hero from "../components/Hero";
 import Testimonials from "../components/Testimonials";
 import UploadResume from "../components/UploadResume";
 import SearchResume from "../components/SearchResume";
-import "../styles/globals.css"; // Import global styles
+ // Import global styles
 
 function App() {
   const [jobDescription, setJobDescription] = useState("");
