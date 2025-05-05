@@ -46,7 +46,10 @@ Network effects: Recruiters can search an anonymized database of high-quality re
 Browser extension: Auto-scan job listings on AngelList, LinkedIn, etc., and suggest optimizations.
 
 🛠️ Built With
-
+🔹 Frontend → Next.js, TailwindCSS (Modern UI/UX)
+🔹 Backend → FastAPI, Python, MongoDB (Scalable AI-powered API)
+🔹 AI Models → SBERT, FAISS, Custom Fine-Tuned NLP Models
+🔹 Performance → FastAPI async processing, Indexed FAISS search
 
 Designed for modularity and easy API extension.
 
