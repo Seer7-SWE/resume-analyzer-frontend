@@ -32,6 +32,19 @@ function App() {
     }
   };
   
+  // pages/index.js
+export default function Home() {
+  return (
+    <div className="container">
+      <h1 className="line-1 typewriter-effect">Welcome to Resume Analyzer</h1>
+      <p className="hero-text">
+        Upload your resume and let AI find the best job matches for you.
+      </p>
+      <button className="cta-btn">Upload Resume</button>
+    </div>
+  );
+}
+
 
   return (
     <div>
